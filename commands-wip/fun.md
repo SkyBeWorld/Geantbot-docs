@@ -8,11 +8,21 @@ description: A list of all the commands categorized under Fun
 {% tab title="/quizz" %}
 ## Description
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa.
+> Send an interactive quizz. The member of the server can answer the question.
 
 ## Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa. Quisque eget risus molestie, consectetur nunc nec, scelerisque odio. Sed mattis sapien odio, ac laoreet diam tincidunt in. Vestibulum consectetur bibendum diam, id luctus felis. Nunc pulvinar at dui vel laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut id lacus lacus. Morbi imperdiet tortor sit amet nunc ultricies facilisis a quis lectus. Donec euismod tincidunt nisl, vitae condimentum ipsum commodo id. Praesent commodo sapien et quam ullamcorper, quis sodales tortor tristique. Suspendisse potenti. Morbi sollicitudin semper leo ut tempus. Suspendisse faucibus ante rhoncus tempor lacinia.
+To create a quizz, you have to use the command `/quizz question:(Question) answer:(Answer) time:(Time)`.
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-10 230524.png" alt=""><figcaption><p>You can use this command to create quizz for you server members.</p></figcaption></figure>
+
+{% hint style="info" %}
+You have to add symbol of the time mesure you're using (e.g. _1 seconds => 1s ; 1 minutes => 1m_).
+{% endhint %}
+
+Members of your server then have to reply the question within the given amount of time.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Your server member can try answer the question!</p></figcaption></figure>
 
 {% hint style="info" %}
 You need the permission `MANAGE_EVENTS` to use this command.
