@@ -8,11 +8,39 @@ description: A list of all the commands categorized under Giveaways
 {% tab title="/giveaway" %}
 ## Description
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa.
+> Start or manage a/the giveaways.
 
 ## Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa. Quisque eget risus molestie, consectetur nunc nec, scelerisque odio. Sed mattis sapien odio, ac laoreet diam tincidunt in. Vestibulum consectetur bibendum diam, id luctus felis. Nunc pulvinar at dui vel laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut id lacus lacus. Morbi imperdiet tortor sit amet nunc ultricies facilisis a quis lectus. Donec euismod tincidunt nisl, vitae condimentum ipsum commodo id. Praesent commodo sapien et quam ullamcorper, quis sodales tortor tristique. Suspendisse potenti. Morbi sollicitudin semper leo ut tempus. Suspendisse faucibus ante rhoncus tempor lacinia.
+To create a giveaway, you have to use the subcommand `/giveaway start duration:(Duration) winners:(Number) prize:(Prize) channel:[Channel (optionnal)]`
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 174730.png" alt=""><figcaption><p>You can use this command to create a giveaway (channel is optionnal).</p></figcaption></figure>
+
+{% hint style="info" %}
+You have to add the symbol of the time measure you're using (e.g. _1 seconds => 1s ; 1 minutes => 1m_).
+{% endhint %}
+
+The giveaway will then be sent.
+
+In that case, the giveaway will have 1 random winner, will last 10 minutes and will be sent in the _**#giveaways**_ channel. The prize will be 1,000 R$.
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 175358.png" alt=""><figcaption><p>There will be 1 random winner, the giveaway will last 10 minutes, and the prize is 1,000 R$.</p></figcaption></figure>
+
+After 10 minutes, a random winner will be chosen to win the prize!
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 175540.png" alt=""><figcaption><p>A random winner has been chosen.</p></figcaption></figure>
+
+### Giveaway action
+
+You can do multiple action to an existing giveaway. You can:
+
+* **End a giveaway** => `/giveaway actions options:end query:(MSG ID of the giveaway)`
+* **Pause a giveaway** => `/giveaway actions options:pause query:(MSG ID of the giveaway)`
+* **Unpause a giveaway** => `/giveaway actions options:unpause query:(MSG ID of the giveaway)`
+* **Reroll the winner of a giveaway** => `/giveaway actions options:reroll query:(MSG ID of the giveaway)`
+* **Delete a giveaway** => `/giveaway actions options:delete query:(MSG ID of the giveaway)`
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 180638.png" alt=""><figcaption><p>You can do multiple action to an existing giveaway.</p></figcaption></figure>
 
 {% hint style="info" %}
 You need the permission `MANAGE_EVENTS` to use this command.
