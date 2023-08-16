@@ -8,11 +8,17 @@ description: A list of all the commands categorized under Information
 {% tab title="/help" %}
 ## Description
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa.
+> Get a list of all the commands available of the discord bot.
 
 ## Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa. Quisque eget risus molestie, consectetur nunc nec, scelerisque odio. Sed mattis sapien odio, ac laoreet diam tincidunt in. Vestibulum consectetur bibendum diam, id luctus felis. Nunc pulvinar at dui vel laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut id lacus lacus. Morbi imperdiet tortor sit amet nunc ultricies facilisis a quis lectus. Donec euismod tincidunt nisl, vitae condimentum ipsum commodo id. Praesent commodo sapien et quam ullamcorper, quis sodales tortor tristique. Suspendisse potenti. Morbi sollicitudin semper leo ut tempus. Suspendisse faucibus ante rhoncus tempor lacinia.
+To see all the commands, you have to use the command `/help`
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 182109.png" alt=""><figcaption><p>You can use this command to see all the commands.</p></figcaption></figure>
+
+The command will send an embed with a dropdown menu showing all the categories of command.
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 182230.png" alt=""><figcaption><p>The command send an embed with a dropdown menu with all the categories of command.</p></figcaption></figure>
 
 {% hint style="info" %}
 You don't need any specific permission to use this command.
@@ -22,11 +28,27 @@ You don't need any specific permission to use this command.
 {% tab title="/status" %}
 ## Description
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa.
+> Get the discord bot and database status.&#x20;
 
 ## Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet molestie molestie. Fusce at sem massa. Quisque eget risus molestie, consectetur nunc nec, scelerisque odio. Sed mattis sapien odio, ac laoreet diam tincidunt in. Vestibulum consectetur bibendum diam, id luctus felis. Nunc pulvinar at dui vel laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut id lacus lacus. Morbi imperdiet tortor sit amet nunc ultricies facilisis a quis lectus. Donec euismod tincidunt nisl, vitae condimentum ipsum commodo id. Praesent commodo sapien et quam ullamcorper, quis sodales tortor tristique. Suspendisse potenti. Morbi sollicitudin semper leo ut tempus. Suspendisse faucibus ante rhoncus tempor lacinia.
+To see the discord bot and database status, you have to use the command `/status`
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 182755.png" alt=""><figcaption><p>You can use this command to see the discord bot and database status.</p></figcaption></figure>
+
+The command will send an embed with the following information:
+
+* The Discord API latency (in ms).
+* The Discord BOT latency (in ms).
+* The Database status:
+  * `🟢 Connected`
+  * `🟠 Conneting...`
+  * `🔴 Disconnected`
+  * `🟣 Disconnection in progress`
+* The uptime (using Discord timestamps).
+* And the host IP (will only show: `Host IP`, not the actual IP).
+
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 184744.png" alt=""><figcaption><p>The most common status that will appear.</p></figcaption></figure>
 
 {% hint style="info" %}
 You don't need any specific permission to use this command.
