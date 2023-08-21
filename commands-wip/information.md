@@ -48,7 +48,7 @@ The command will send an embed with the following information:
 * The uptime (using Discord timestamps).
 * And the host IP (will only show: `Host IP`, not the actual IP).
 
-<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-16 184744.png" alt=""><figcaption><p>The most common status that will appear.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-21 232825.png" alt=""><figcaption><p>The most common status that will appear.</p></figcaption></figure>
 
 {% hint style="info" %}
 You don't need any specific permission to use this command.
