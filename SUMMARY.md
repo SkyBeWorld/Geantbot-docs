@@ -5,19 +5,19 @@
 * [🦆 Welcome to Geantbot](README.md)
 * [👋 Getting started](welcome/getting-started.md)
 
-## 🤖 Commands - ⚠️ WIP
+## 🤖 Commands&#x20;
 
-* [🥳 Fun](commands-wip/fun.md)
-* [🎉 Giveaways](commands-wip/giveaways.md)
-* [ℹ Information](commands-wip/information.md)
-* [⭐ Level](commands-wip/level.md)
-* [🚨 Mods](commands-wip/mods.md)
-* [📊 Polls](commands-wip/polls.md)
-* [🎓 Roles](commands-wip/roles.md)
-* [🎫 Ticket](commands-wip/ticket.md)
+* [🥳 Fun](commands/fun.md)
+* [🎉 Giveaways](commands/giveaways.md)
+* [ℹ Information](commands/information.md)
+* [⭐ Level](commands/level.md)
+* [🚨 Mods](commands/mods.md)
+* [📊 Polls](commands/polls.md)
+* [🎓 Roles](commands/roles.md)
+* [🎫 Ticket](commands/ticket.md)
 
-## 💾 Dashboard - ⚠️ WIP
+## 💾 Dashboard
 
-* [❗ Prefix Settings](dashboard-wip/prefix-settings.md)
-* [🛬 Welcome Settings](dashboard-wip/welcome-settings.md)
-* [🛫 Leave Settings](dashboard-wip/leave-settings.md)
+* [❗ Prefix Settings](dashboard/prefix-settings.md)
+* [🛬 Welcome Settings](dashboard/welcome-settings.md)
+* [🛫 Leave Settings](dashboard/leave-settings.md)
