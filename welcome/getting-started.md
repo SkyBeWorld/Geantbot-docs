@@ -6,7 +6,7 @@ description: How to start using Geantbot by inviting it.
 
 ## Inviting Geantbot
 
-First you need to go to [geantbot.tk](https://geantbot.tk/) and click "Login".
+First you need to go to [geantbot.xyz](https://geantbot.xyz) and click "Login".
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-08-09 at 17-58-13 Home - Geantbot.jpg" alt=""><figcaption><p>Click on Login.</p></figcaption></figure>
 
