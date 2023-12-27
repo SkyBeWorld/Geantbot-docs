@@ -27,7 +27,7 @@ You don't need any specific permission to use this command.
 {% endhint %}
 {% endtab %}
 
-{% tab title="/level" %}
+{% tab title="/rank" %}
 ## Description
 
 > view your current level in the server

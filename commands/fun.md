@@ -28,4 +28,27 @@ Members of your server then have to reply the question within the given amount o
 You need the permission `MANAGE_EVENTS` to use this command.
 {% endhint %}
 {% endtab %}
+
+{% tab title="/8-ball" %}
+## Description
+
+* Ask a question and get a reponse
+
+## Usage
+
+You can ask a question to Geantbot and will reply by random "reponse"
+
+`/8-ball {question:String} {hidden:true/false(optional)}`
+
+{% hint style="warning" %}
+This command is in beta
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+No permission needed
+{% endhint %}
+{% endtab %}
 {% endtabs %}
+
