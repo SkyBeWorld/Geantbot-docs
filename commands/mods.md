@@ -38,7 +38,9 @@ You need the permission `BAN_MEMBERS` to use this command.
 
 ## Usage
 
+Unbanning someone from your server
 
+use /unban {UserID:String}
 
 {% hint style="info" %}
 You need the permission `BAN_MEMBERS` to use this command.
